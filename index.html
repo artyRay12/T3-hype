@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+  <title>Agency Landing Page</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/adaptive_style.css">
+	<link rel='stylesheet' href='https://use.fontawesome.com/releases/v5.8.1/css/all.css' integrity='sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf' as='style' crossorigin='anonymous' />
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link href="https://fonts.googleapis.com/css?family=Forum&display=swap&subset=cyrillic" rel="stylesheet">
+  
+  <link rel="stylesheet" href="owl.carousel/dist/assets/owl.carousel.min.css">
+  <link rel="stylesheet" href="owl.carousel/dist/assets/owl.theme.default.min.css">
+  
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">  
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+</head>
+<body>
+  <header class="header">
+    <nav class="navigation container-fluid justify-content-between navbar navbar-expand-lg" id="navigation">
+      <div class="logotype_block justify-content-start">
+        <div class="logotype_wrap">
+        </div>
+        <div class="sex_choise_block">
+          <p class="sex_choise_label">Для девушек</p>
+        </div>
+      </div>
+
+      <a class="menu navbar-toggler" data-toggle="collapse" href="#multiCollapseExample1" role="button" aria-expanded="false" aria-controls="multiCollapseExample1"
+      aria-expanded="false" aria-controls="collapseExample">
+        <div class="menu_icon">
+          <span></span>
+          <span></span>
+          <span></span>
+          <span></span>  
+        </div>  
+      </a>
+        
+      <div class="collapse navbar-collapse nav_menu_wrap" id="multiCollapseExample1">
+        <ul class="navbar-nav nav_menu_list ml-auto">
+          <li class="nav_menu_list_item">
+            <a href="#" class="red_hover nav_menu_list_item_link" id="aboutWatchButton">О часах</a>
+          </li>
+          <li class="nav_menu_list_item">
+            <a href="#" class="nav_menu_list_item_link red_hover">Доставка</a>
+          </li>
+          <li class="nav_menu_list_item">
+            <a href="#" class="nav_menu_list_item_link red_hover" id="packageButton">Упаковка</a>
+          </li>
+          <li class="nav_menu_list_item">
+            <a href="#" class="nav_menu_list_item_link red_hover">Оплата</a>
+          </li>
+          <li class="nav_menu_list_item">
+            <a href="#" class="nav_menu_list_item_link red_hover">FAQ</a>
+          </li>
+        </ul>
+      </div>  
+    </nav>
+  </header>  
+  <section class="main">
+    <div class="main_content container-fluid">
+      <h1 class="main_title">
+        Чем отличается <br /> <span class="red_word">успешная</span> девушка?
+      </h1>       
+      <p class="main_subtitle"> 
+        Она много двигается, общается, занимается спортом! <br />
+        Контролировать её активность поможет 
+        <span class="red_word subtitle_special_word">фитнес-браслет.</span>
+      </p>
+      <div class="w-100"></div>
+      <div class="main_button">
+        <a href="#" class="main_button_link">Оформить заказ</a>
+      </div>
+    </div>
+  </section> 
+ 
+  <section class="advantages" id="aboutWatch">
+    <div class="advantages_content container-fluid">
+      <h2 class="advantages_title">Неоспоромые преимущества</h2>
+
+      <div class="properties_wrap row">
+        <div class="properties_item col-sm-2 col-12">
+          <span class="properties_num">1</span>
+          <p class="properties_text">Комфорт и стильный дизайн</p>
+        </div>
+        <div class="properties_item col-sm-2 col-12">
+          <span class="properties_num">2</span>
+          <p class="properties_text">Совместимоть с Android и iOS</p>
+        </div>
+        <div class="properties_item col-sm-2 col-12">
+          <span class="properties_num">3</span>
+          <p class="properties_text">Сенсорный экран</p>
+        </div>
+        <div class="properties_item col-sm-2 col-12">
+          <span class="properties_num">4</span>
+          <p class="properties_text">До ХХ часов активного пользования</p>
+        </div>
+        <div class="properties_item col-sm-2 col-12">
+          <span class="properties_num">5</span>
+          <p class="properties_text">Устойчивость к воде и влаге</p>
+        </div>
+        <div class="properties_item col-sm-2 col-12">
+          <span class="properties_num">6</span>
+          <p class="properties_text">Удаленное управление камерой</p>
+        </div>
+      </div>
+    </div>  
+  </section>
+
+  <section class="greeting_cards" id="packages">
+    <div class="greeting_cards_content container-fluid flex-direction-column">
+      <h2 class="greeting_cards_title">
+        Выберите открытку и напишите <span class="red_word">свое поздравление</span>
+      </h2>
+      <div class="row">
+        <div class="cards_wrap justify-content-around">
+
+          <a href="#modalCardForm" class="card_item" data-target="#modalCardForm" data-toggle="modal" >
+            <img src="images/card_go_to_dreams.jpg" alt="card" class="card_image">
+          </a>   
+
+          <a href="#modalCardForm" class="card_item" data-target="#modalCardForm" data-toggle="modal" >
+            <img src="images/card_happiest_day.jpg" alt="card" class="card_image"> 
+          </a>
+
+          <a href="#modalCardForm" class="card_item" data-target="#modalCardForm" data-toggle="modal" >
+            <img src="images/card_enjoy.jpg" alt="card" class="card_image"> 
+          </a>
+
+          <a href="#modalCardForm" class="card_item" data-target="#modalCardForm" data-toggle="modal" >
+            <img src="images/card_you_like_night_sky.jpg" alt="card" class="card_image"> 
+          </a>
+
+          <a href="#modalCardForm" class="card_item" data-target="#modalCardForm" data-toggle="modal" >
+            <img src="images/card_if_you_dream.jpg" alt="card" class="card_image"> 
+          </a>
+        
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <div class="footer_content">
+
+    <div class="contacts col-12 col-sm-6 col-lg-3">
+      <h3 class="footer_title">Контакты</h3>
+      <span class="contacts_info phone_number">8 917 801 72 27</span>
+      <a href="#" class="contacts_info email">
+          mail123@mail.ru
+      </a>
+      <div class="social_icons justify-content-between">
+        <a href="#" class="social_icon_link">
+          <div class="icon_wrap instagram_bg">
+            <i class="fab fa-instagram"></i>
+          </div>
+        </a>
+
+        <a href="#" class="social_icon_link">
+          <div class="icon_wrap vk_bg">
+            <i class="fab fa-vk"></i>
+          </div>
+        </a>
+      </div>
+      <span class="orgranization_info">ИП Иванцов Р.С</span>
+      <span class="orgranization_info">ИНН 121520194085</span>
+    </div>
+
+    <div class="footer_navigation col-12 col-sm-6 col-lg-3">
+      <h3 class="footer_title">Навигация</h3>
+      <ul class="footer_menu">
+        <li class="footer_menu_item"><a href="#" class="footer_menu_item_link red_hover">О часах</a></li>
+        <li class="footer_menu_item"><a href="#" class="footer_menu_item_link red_hover">Доставка</a></li>
+        <li class="footer_menu_item"><a href="#" class="footer_menu_item_link red_hover">Упаковка</a></li>
+        <li class="footer_menu_item"><a href="#" class="footer_menu_item_link red_hover">Оплата</a></li>
+        <li class="footer_menu_item"><a href="#" class="footer_menu_item_link red_hover">FAQ</a></li>
+      </ul>
+    </div>
+
+    <div class="question_form_wrap col col-lg-6">
+      <h3 class="footer_title">Задайте нам вопрос</h3>
+      <form action="" method="POST" class="question_form">
+        <input type="text" name="phone" placeholder="Номер телефона" class="form_input">
+        <input type="text" name="email" placeholder="Электронная почта" class="form_input">
+        <textarea name="" id="" cols="30" rows="10" placeholder="Введите ваш вопрос" class="form_textarea">
+        </textarea>
+        <button type="submit" class="question_form_button" disabled>ОТПРАВИТЬ</button>      
+      </form>
+    </div>
+    </div>
+  </footer>
+
+  <!-- Modal -->
+  <div class="modal fade" id="modalCardForm" tabindex="-1" role="dialog" aria-labelledby="modalCardFormLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal_body">
+          <div class="container-fluid">
+            <div class="row">
+              <div class="owl-carousel owl-theme col-5 car">
+                <img src="images/card_go_to_dreams.jpg" alt="Card" class="modal_image">
+                <img src="images/card_happiest_day.jpg" alt="Card" class="modal_image">
+                <img src="images/card_enjoy.jpg" alt="Card" class="modal_image">
+                <img src="images/card_you_like_night_sky.jpg" alt="Card" class="modal_image">
+                <img src="images/card_if_you_dream.jpg" alt="Card" class="modal_image">
+              </div>
+            
+              <div class="col-10 col-md-8 col-lg-5 modal_form_wrap" id="cardBlock">
+                <i class="fas fa-times" id="closeForm" data-dismiss="modal"></i>
+                <h2 class="modal_title">Информация о получателе</h2>
+
+                <form method="POST" class="card_form" action="#" id="cardForm">
+                  <input type="text" onkeyup='checkInputFields()' id="cardInputName" name="name" placeholder="Имя" class="card_input card_input_field">
+                  <input type="text" onkeyup='checkInputFields()' id="cardInputSecondName" name="secondName" placeholder="Фамилия" class="card_input card_input_field">
+                  <input type="text" onkeyup='checkInputFields()' id="cardInputThirdName" name="thirdName" placeholder="Отчество" class="card_input card_input_field">
+                  <label class="card_textarea_label">Текст поздравления</label>
+                  <textarea onkeyup='checkInputFields()' id="cardTextarea" name="congratulation_text" id="" cols="30" rows="10" class="card_textarea card_input_field"></textarea>
+                  <button type="button" class="card_form_button" id='cardFormButton' disabled>Подтвердить</button>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="after_send" id="afterSend">
+    <div class="card_mark_wrap">
+      <img src="images/card_mark.png" alt="Card" class="card_mark">
+    </div>
+    <p class="congratilation_text" id="congratilationText">
+    </p>
+    <div class="after_send_footer">
+      <div class="after_send_button_wrap">
+        <a href="#" class="after_send_button_link" id="okButton" data-dismiss="modal">OK</a>
+      </div>
+      <img src="images/barcode.png" alt="Штрих Код" class="barcode">
+    </div>
+  </div>
+  
+  <script type="text/javascript" src="js/smothScroll.js"></script>
+  <script src="owl.carousel/dist/owl.carousel.min.js"></script>
+  <script src="js/script.js"></script>	
+
+  
+</body>
+</html>

@@ -1,0 +1,372 @@
+@media screen and (max-width: 1340px) 
+{
+  .main 
+  {
+    .main_content 
+    {
+      .main_title 
+      {
+        font-size: 70px;
+      }
+      .main_subtitle
+      {
+        font-size: 20px;
+      }
+    }
+  } 
+}
+
+@media screen and (max-width: 1240px) 
+{
+  .header 
+  {
+    .navigation 
+    {
+      .nav_menu_wrap 
+      {
+        .nav_menu_list 
+        {
+          .nav_menu_list_item:not(:last-child)
+          {
+            margin-right: 29px;
+          }
+          .nav_menu_list_item
+          {
+            .nav_menu_list_item_link
+            {
+              font-size: 17px;
+            }
+          }
+        }
+      }
+    }
+  }
+  .main 
+  {
+    //background-position-x: -57%;
+    .main_content 
+    {
+      .main_title 
+      {
+      }
+
+      .main_subtitle
+      {
+        font-size: 16px;
+      }
+    }
+  } 
+
+  .advantages
+  {
+    .advantages_content
+    {
+      .properties_wrap
+      {
+        display: flex;
+        justify-content: space-around;
+
+        .properties_item
+        {
+          flex: 0 0 50%;
+          max-width: 30%;
+          justify-content: center;
+          display: flex;
+          
+          .properties_text
+          {
+            margin: 55px 0 0 -15px;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 1200px) 
+{
+  .main 
+  {
+    .main_content 
+    {
+      padding: 90px 80px 182px;
+    }
+  }
+  .advantages
+  {
+    .advantages_content
+    {
+      padding: 109px 80px 65px;
+    }
+  }
+
+  .greeting_cards 
+  {
+    .greeting_cards_content 
+    {
+      padding: 67px 80px 80px;
+
+      .greeting_cards_title
+      {
+        font-size: 56px;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 992px) 
+{
+
+  .header 
+  {
+    .navigation 
+    {
+      .logotype_block
+      {
+        align-self: flex-start;
+      }
+      
+      .menu
+      {
+        align-self: flex-start;
+      }
+
+      .nav_menu_wrap
+      {
+        .nav_menu_list 
+        { 
+          .nav_menu_list_item
+          {
+            width: 100%;
+            text-align: center;
+            margin: 15px 0 0 0;
+          }
+        }
+      }
+    }
+  }
+
+  .modal .modal-dialog .modal-content .modal_body .modal_image
+  {
+    display: none;
+  }
+
+  .modal .modal-dialog .modal-content .modal_body .modal_form_wrap .modal_title,
+  .modal .modal-dialog .modal-content .modal_body .modal_form_wrap .card_form .card_textarea_label
+  {
+    font-size: 28px;
+  }
+
+  .modal .modal-dialog .modal-content .modal_body .modal_form_wrap .card_form .card_form_button
+  {
+    max-width: 230px;
+  }
+
+
+  .menu
+  {
+    display: block;
+  } 
+
+  .greeting_cards .greeting_cards_content .greeting_cards_title
+  {
+    font-size: 44px;
+  }
+
+  .greeting_cards 
+  {
+    .greeting_cards_content
+    {
+      .cards_wrap 
+      {
+        .card_item
+        {
+          width: 45%;
+          margin-bottom: 30px;
+        }
+
+        .card_item:last-child
+        {
+          display: none;
+        }
+      }
+    }
+  }
+   
+  footer
+  {
+    .footer_content
+    {
+      .question_form_wrap
+      {
+        margin-top: 70px;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 768px) 
+{
+  .main 
+  {
+    background-position-x: 65%;
+    .main_content .main_title 
+    {
+      line-height: 60px;
+      font-size: 60px;
+    }
+  }
+
+  .advantages .advantages_content .properties_wrap .properties_item
+  {
+    max-width: 47%;
+
+    .properties_text
+    {
+      width: 100%;
+    }
+  }
+
+  .modal .modal-dialog .modal-content .modal_body .modal_form_wrap .card_form .card_form_button
+  {
+    max-width: 190px;
+  }
+
+  
+}
+
+@media screen and (max-width: 666px) 
+{
+  .main
+  {
+    background-size: 0 0;
+  }
+
+  .greeting_cards .greeting_cards_content .greeting_cards_title
+  {
+    line-height: 50px;
+  }
+  .advantages 
+  {
+    .advantages_content 
+    {
+      .advantages_title
+      {
+        font-size: 44px;
+      }
+      .properties_wrap
+      {
+        justify-content: flex-start;
+
+        .properties_item 
+        {
+          max-width: 100%;
+          flex: 0 0 100%;
+        }
+      } 
+    }
+  }
+}
+
+@media screen and (max-width: 572px) 
+{
+  .navigation_fix 
+  {
+    padding: 10px 30px;
+  }
+  
+  footer 
+  {
+    .footer_content 
+    {
+      .contacts 
+      {
+        margin-bottom: 60px;
+
+        .phone_number,
+        .social_icons
+        {
+          margin: 29px 0 0 0;
+        }
+      }
+
+      .footer_navigation
+      {
+        .footer_menu
+        {
+          margin-top: 29px;
+        }
+      }
+
+      .question_form_wrap
+      {
+        margin-top: 46px;
+
+        .question_form
+        {
+          margin-top: 29px;
+        }
+      }
+    }
+  }
+
+  .header 
+  {
+    .navigation 
+    {
+      .logotype_block 
+      {
+        width: 68%;
+        justify-content: space-between !important;
+        .logotype_wrap
+        {
+          background-image: url('../images/mini_logo.png');
+          width: 30px;
+        }
+        .sex_choise_block
+        {
+          margin: 9px 0 0 0px;
+        }
+      }
+
+    }
+    
+  }
+  
+
+  .header .navigation,
+  .main .main_content,
+  .advantages .advantages_content,
+  .greeting_cards .greeting_cards_content,
+  footer .footer_content {
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+}
+
+@media screen and (max-width: 490px) 
+{
+  .greeting_cards .greeting_cards_content .cards_wrap .card_item
+  {
+    width: 80%;
+  }
+
+  .header .navigation .logotype_block
+  {
+    width: 74%;
+  }
+}
+
+@media screen and (max-width: 400px) 
+{
+  .modal .modal-dialog .modal-content .modal_body .modal_form_wrap .card_form .card_form_button
+  {
+    line-height: 55px;
+  }
+  .modal .modal-dialog .modal-content .modal_body .modal_form_wrap .card_form .card_textarea
+  {
+    height: 120px;
+  }
+  
+}
+

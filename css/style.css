@@ -1,0 +1,452 @@
+@import url(fonts.css);
+* {
+  margin: 0;
+  padding: 0;
+  outline: none; }
+
+.owl-carousel {
+  position: relative; }
+
+.owl-dots {
+  position: absolute;
+  top: 95%;
+  left: 25%;
+  right: 25%; }
+
+.owl-nav {
+  position: absolute;
+  top: 45%;
+  display: flex;
+  justify-content: space-between;
+  width: 93%; }
+
+.navigation_fix {
+  position: fixed !important;
+  top: 0;
+  background-color: #FFFF;
+  z-index: 500;
+  box-shadow: 0 0 10px 0 rgba(232, 82, 73, 0.4); }
+
+/*Burger Menu*/
+.menu {
+  display: none;
+  outline: none;
+  margin: 6px 47px 0 0 !important;
+  padding: 0; }
+
+.navbar-toggler {
+  margin: 0;
+  padding: 0 !important; }
+
+.menu_show {
+  display: flex !important; }
+
+.menu_icon {
+  width: 45px;
+  height: 35px;
+  position: absolute;
+  cursor: pointer;
+  z-index: 500; }
+
+.menu_icon span {
+  z-index: 1005;
+  display: block;
+  position: absolute;
+  height: 4px;
+  width: 100%;
+  background: #E85249;
+  border-radius: 9px;
+  left: 0;
+  transform: rotate(0deg);
+  transition: .25s ease-in-out; }
+
+.menu_icon span:nth-child(1) {
+  top: 0; }
+
+.menu_icon span:nth-child(2), .menu_icon span:nth-child(3) {
+  top: 13px; }
+
+.menu_icon span:nth-child(4) {
+  top: 26px; }
+
+.menu_open span:nth-child(1) {
+  top: 10px;
+  width: 0%;
+  left: 50%; }
+
+.menu_open span:nth-child(2) {
+  transform: rotate(45deg); }
+
+.menu_open span:nth-child(3) {
+  transform: rotate(-45deg); }
+
+.menu_open span:nth-child(4) {
+  top: 10px;
+  width: 0%;
+  left: 50%; }
+
+/*Burger Menu*/
+.red_word {
+  color: #E85249; }
+
+.red_hover:hover {
+  color: #E85249 !important; }
+
+.header {
+  width: 100%; }
+  .header .navigation {
+    width: 100%;
+    padding: 30px 80px 10px;
+    box-sizing: border-box;
+    display: flex;
+    transition: .5s; }
+    .header .navigation .logotype_block {
+      display: flex;
+      padding: 0; }
+      .header .navigation .logotype_block .logotype_wrap {
+        background-image: url("../images/logo.png");
+        background-repeat: no-repeat;
+        width: 150px; }
+      .header .navigation .logotype_block .sex_choise_block {
+        margin: 9px 0 0 32px; }
+        .header .navigation .logotype_block .sex_choise_block .sex_choise_label {
+          font: 19px/24px "FuturaMediumC";
+          letter-spacing: 0.1em;
+          text-transform: uppercase;
+          color: #222126; }
+    .header .navigation .nav_menu_wrap .nav_menu_list {
+      list-style: none;
+      margin: -6px 0 0 0; }
+      .header .navigation .nav_menu_wrap .nav_menu_list .nav_menu_list_item .nav_menu_list_item_link {
+        text-decoration: none;
+        font: 19px/24px "FuturaMediumC";
+        letter-spacing: 0.1em;
+        color: #222126;
+        transition: 0.3s; }
+      .header .navigation .nav_menu_wrap .nav_menu_list .nav_menu_list_item:not(:last-child) {
+        margin-right: 52px; }
+
+.main {
+  width: 100%;
+  background-image: url(../images/main_background.jpg);
+  background-position-y: 20%;
+  background-position-x: 40%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  z-index: 10; }
+  .main .main_content {
+    width: 100%;
+    padding: 112px 80px 207px; }
+    .main .main_content .main_title {
+      padding: 0;
+      margin-bottom: 48px;
+      font: 88px/95px "HelveticaNue-Con-Bold";
+      width: 100%; }
+    .main .main_content .main_subtitle {
+      padding: 0;
+      font: 24px/149.04% "FuturaBookC";
+      letter-spacing: 0.1em;
+      margin-bottom: 59px; }
+      .main .main_content .main_subtitle .subtitle_special_word {
+        font-weight: 900;
+        letter-spacing: 3.3px; }
+    .main .main_content .main_button {
+      width: 285px;
+      border-radius: 10px; }
+      .main .main_content .main_button .main_button_link {
+        display: block;
+        text-decoration: none;
+        width: 100%;
+        background-color: #E85249;
+        border-radius: 6px;
+        font: 32px/72px "HelveticaNue-Con-Bold";
+        text-align: center;
+        color: #FFFFFF;
+        transition: 0.3s; }
+      .main .main_content .main_button .main_button_link:hover {
+        background-color: #ECA6A2;
+        color: #FFFFFF; }
+
+.advantages {
+  width: 100%;
+  background-image: url(../images/advantage_background.jpg);
+  background-position-y: 0px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  z-index: 40;
+  margin-top: -90px; }
+  .advantages .advantages_content {
+    width: 100%;
+    padding: 160px 80px 130px; }
+    .advantages .advantages_content .advantages_title {
+      font: 64px/77px "HelveticaNue-Con-Bold";
+      text-align: center;
+      color: #FFFFFF;
+      margin-bottom: 48px; }
+    .advantages .advantages_content .properties_wrap .properties_item .properties_num {
+      font: 800 76px/105px 'Tahoma';
+      text-transform: uppercase;
+      color: #E85249; }
+    .advantages .advantages_content .properties_wrap .properties_item .properties_text {
+      font: 21px/25px "Futurademic";
+      color: #FFFFFF;
+      width: 143px;
+      margin: -41px 0 0 25px; }
+
+.greeting_cards {
+  width: 100%; }
+  .greeting_cards .greeting_cards_content {
+    width: 100%;
+    padding: 160px 80px 130px;
+    display: flex;
+    flex-direction: column;
+    align-items: center; }
+    .greeting_cards .greeting_cards_content .greeting_cards_title {
+      font: 64px/77px "HelveticaNue-Con-Bold";
+      text-align: center;
+      margin-bottom: 71px;
+      max-width: 800px;
+      width: 100%; }
+    .greeting_cards .greeting_cards_content .cards_wrap {
+      display: flex;
+      flex-wrap: wrap; }
+      .greeting_cards .greeting_cards_content .cards_wrap .card_item {
+        transition: .5s;
+        width: 17%;
+        position: relative; }
+        .greeting_cards .greeting_cards_content .cards_wrap .card_item .card_image {
+          width: 100%;
+          height: auto; }
+      .greeting_cards .greeting_cards_content .cards_wrap .card_item:hover {
+        transform: scale(1.1); }
+
+footer {
+  width: 100%; }
+  footer .footer_content {
+    background-image: url(../images/advantage_background.jpg);
+    background-position-y: 0px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    padding: 160px 80px 130px;
+    display: flex;
+    flex-wrap: wrap; }
+    footer .footer_content .footer_title {
+      font: 800 42px/40px "HelveticaNue-Con-Bold";
+      font-style: normal;
+      color: #FFFFFF; }
+    footer .footer_content .contacts {
+      display: flex;
+      flex-direction: column; }
+      footer .footer_content .contacts .contacts_info {
+        font: 19px/24px "FuturaMediumC";
+        letter-spacing: 0.1em;
+        color: #FFFFFF;
+        margin: 0 0 0 0; }
+      footer .footer_content .contacts .phone_number {
+        margin: 60px 0 0 0; }
+      footer .footer_content .contacts .email {
+        margin: 20px 0 0 0;
+        text-decoration: none; }
+      footer .footer_content .contacts .social_icons {
+        width: 110px;
+        display: flex;
+        margin: 60px 0 0 0; }
+        footer .footer_content .contacts .social_icons .icon_wrap {
+          width: 40px;
+          height: 40px;
+          border-radius: 37px;
+          background-color: grey;
+          position: relative;
+          transition: .3s; }
+        footer .footer_content .contacts .social_icons .fab {
+          position: absolute;
+          top: 12%;
+          left: 6%;
+          font-size: 30px;
+          border-radius: 50%;
+          color: #222126;
+          transition: .3s; }
+        footer .footer_content .contacts .social_icons .fa-instagram {
+          left: 16%; }
+        footer .footer_content .contacts .social_icons .social_icon_link:hover .fab {
+          color: white; }
+        footer .footer_content .contacts .social_icons .social_icon_link:hover .instagram_bg {
+          background: #d6249f;
+          background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%); }
+        footer .footer_content .contacts .social_icons .social_icon_link:hover .vk_bg {
+          background: #597da3; }
+      footer .footer_content .contacts .orgranization_info {
+        font: 19px/24px "FuturaMediumC";
+        letter-spacing: 0.1em;
+        color: #8E8D93; }
+    footer .footer_content .footer_navigation .footer_menu {
+      list-style: none;
+      margin-top: 60px; }
+      footer .footer_content .footer_navigation .footer_menu .footer_menu_item:not(last-child) {
+        margin-bottom: 24px; }
+        footer .footer_content .footer_navigation .footer_menu .footer_menu_item:not(last-child) .footer_menu_item_link {
+          font: 19px/24px "FuturaMediumC";
+          text-decoration: none;
+          letter-spacing: 0.1em;
+          color: #FFFFFF;
+          transition: .5s; }
+    footer .footer_content .question_form_wrap .question_form {
+      margin-top: 60px;
+      display: flex;
+      flex-direction: column; }
+      footer .footer_content .question_form_wrap .question_form .form_input {
+        border: 1px solid #8E8D93;
+        box-sizing: border-box;
+        color: #fff;
+        border-radius: 22px;
+        margin-bottom: 25px;
+        background-color: #222126;
+        outline: none;
+        padding: 0 15px;
+        font: 19px/45px "FuturaMediumC"; }
+      footer .footer_content .question_form_wrap .question_form .form_textarea {
+        background-color: #222126;
+        border: 1px solid #8E8D93;
+        border-radius: 22px;
+        outline: none;
+        height: 125px;
+        padding: 0 15px;
+        color: #fff;
+        font: 19px/24px "FuturaMediumC"; }
+      footer .footer_content .question_form_wrap .question_form .question_form_button {
+        margin-top: 7px;
+        background: #8E8D93;
+        opacity: 0.3;
+        border-radius: 22px;
+        font: 900 32px/64px "HelveticaNue-Con-Bold";
+        font-style: normal;
+        text-align: center; }
+
+.modal .modal-dialog {
+  max-width: 1090px; }
+  .modal .modal-dialog .modal-content {
+    background-color: transparent;
+    border: none; }
+    .modal .modal-dialog .modal-content .modal_body {
+      width: 100%;
+      padding: 0; }
+      .modal .modal-dialog .modal-content .modal_body .row {
+        justify-content: space-evenly; }
+      .modal .modal-dialog .modal-content .modal_body .modal_image {
+        height: 622px;
+        padding: 0; }
+      .modal .modal-dialog .modal-content .modal_body .modal_form_wrap {
+        padding: 30px 15px;
+        position: relative; }
+        .modal .modal-dialog .modal-content .modal_body .modal_form_wrap .modal_title {
+          font: 36px/42px "HelveticaNue-Con-Bold";
+          margin-bottom: 20px; }
+        .modal .modal-dialog .modal-content .modal_body .modal_form_wrap .card_form {
+          padding: 0;
+          display: flex;
+          flex-direction: column; }
+          .modal .modal-dialog .modal-content .modal_body .modal_form_wrap .card_form .card_input {
+            padding: 2px 15px;
+            border-radius: 22px;
+            line-height: 33px;
+            margin-bottom: 15px;
+            border: 1px solid grey; }
+          .modal .modal-dialog .modal-content .modal_body .modal_form_wrap .card_form .card_textarea_label {
+            font: 36px/42px "HelveticaNue-Con-Bold";
+            margin-bottom: 20px; }
+          .modal .modal-dialog .modal-content .modal_body .modal_form_wrap .card_form .card_textarea {
+            padding: 5px 15px;
+            height: 150px;
+            width: 100%;
+            margin-bottom: 50px;
+            border-radius: 22px; }
+          .modal .modal-dialog .modal-content .modal_body .modal_form_wrap .card_form .card_form_button:enabled {
+            font: 30px/72px "HelveticaNue-Con-Bold";
+            border-radius: 22px;
+            max-width: 250px;
+            width: 100%;
+            background-color: #435482;
+            color: #FFFFFF; }
+          .modal .modal-dialog .modal-content .modal_body .modal_form_wrap .card_form .card_form_button:disabled {
+            background-color: #999999;
+            font: 30px/72px "HelveticaNue-Con-Bold";
+            border-radius: 22px;
+            max-width: 250px;
+            width: 100%;
+            color: #FFFFFF; }
+          .modal .modal-dialog .modal-content .modal_body .modal_form_wrap .card_form .card_form_button:enabled:hover {
+            background-color: #7486b8; }
+          .modal .modal-dialog .modal-content .modal_body .modal_form_wrap .card_form .card_input:hover,
+          .modal .modal-dialog .modal-content .modal_body .modal_form_wrap .card_form .card_textarea:hover {
+            border-color: #E85249; }
+
+.modal_image {
+  width: 115%;
+  padding: 0; }
+
+.margin_block {
+  background-color: transparent; }
+
+.opacity_block {
+  height: 100px;
+  opacity: 0.5; }
+
+.modal_form_wrap,
+.image_wrap {
+  background-color: #FFFFFF; }
+
+.fa-times {
+  position: absolute;
+  top: 2%;
+  left: 93%; }
+
+.fa-times:hover {
+  color: #E85249;
+  cursor: pointer; }
+
+.after_send {
+  display: none;
+  width: 400px;
+  height: 800px;
+  flex-direction: column; }
+
+.card_mark_wrap {
+  align-self: flex-end; }
+
+.after_send_footer {
+  display: flex;
+  width: 94%;
+  justify-content: space-between;
+  position: absolute;
+  top: 88%; }
+
+.after_send_button_wrap {
+  max-width: 200px;
+  width: 100%; }
+
+.after_send_button_link {
+  display: block;
+  font: 32px/50px "HelveticaNue-Con-Bold";
+  text-align: center;
+  font-style: normal;
+  background-color: #435482;
+  border-radius: 10px;
+  color: #FFF; }
+
+.after_send_button_link:hover {
+  background-color: #7486b8;
+  text-decoration: none;
+  color: #FFF; }
+
+.congratilation_text {
+  width: 100%;
+  height: 335px;
+  font: 22px/39px 'Forum';
+  margin: 20px 0;
+  word-wrap: break-word;
+  overflow-y: auto; }
+
+/*# sourceMappingURL=style.css.map */

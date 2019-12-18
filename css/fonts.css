@@ -1,0 +1,23 @@
+/*Futura*/
+@font-face {
+    font-family: 'FuturaMediumC';
+    src: url("../fonts/futuramediumc.otf") format("opentype");
+}
+
+@font-face {
+    font-family: 'FuturaBookC';
+    src: url("../fonts/futurabookc.otf") format("opentype");
+}
+
+
+@font-face {
+    font-family: 'FuturaDemiC';
+    src: url("../fonts/futurademic.otf") format("opentype");
+}
+
+/*Helvetica*/
+@font-face {
+    font-family: 'HelveticaNue-Con-Bold';
+    src: url("../fonts/HelveticaNeueCondensedBold.ttf") format("opentype");
+}
+
